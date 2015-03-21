@@ -1,0 +1,27 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "."
+		}
+	],
+    "build_systems":
+    [
+        {
+        	"name": "Run in Atom",
+			"windows":
+			{
+				"shell_cmd": ".\\bin\\windows\\atom.exe ."
+			},
+			"linux":
+			{
+				"shell_cmd": "./bin/linux/atom.exe ."
+			},
+			"osx":
+			{
+				"shell_cmd": "./bin/osx/atom.exe ."
+			}
+		}
+    ]
+}
